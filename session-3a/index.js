@@ -40,5 +40,13 @@ function sayHey() {
     console.log("Hey!");
 }
 
+function conversation() {
+    sayHey();
+    console.log("How are you?");
+    console.log("Goodby");
+}
+
 
 sayHey()
+
+conversation()
